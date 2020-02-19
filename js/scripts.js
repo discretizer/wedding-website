@@ -184,7 +184,7 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Ram and Antara's Wedding",
+            title: "Aaron and Rache's wedding",
 
             // Event start date
             start: new Date('Nov 27, 2017 10:00'),
@@ -241,7 +241,7 @@ $(document).ready(function () {
 
 // Google map
 function initMap() {
-    var location = {lat: 22.5932759, lng: 88.27027720000001};
+    var location = {lat: 38.9659716, lng: -77.1386734};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 15,
         center: location,
@@ -254,7 +254,7 @@ function initMap() {
     });
 }
 
-function initBBSRMap() {
+function initRehearsalMap() {
     var la_fiesta = {lat: 20.305826, lng: 85.85480189999998};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 15,
