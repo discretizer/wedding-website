@@ -1,0 +1,8 @@
+---
+deployment:
+ tasks:
+ - export DEPLOYPATH=/home/user/public_html/wedding.daltonfamily.org
+ - cp -a * $DEPLOYPATH
+ - cd $DEPLOYPATH
+ - npm install 
+ - gulp
